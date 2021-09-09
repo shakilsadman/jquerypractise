@@ -1,0 +1,101 @@
+h1{
+    margin: 30px 0;
+}
+#draggable { 
+     padding: 0;
+     display: inline-block; 
+     border: none;
+     box-shadow: none;
+    }
+/* Dropable */
+#draggable2 {
+     width: 100px; 
+     height: 100px; 
+     padding: 0.5em; 
+     float: left; 
+     margin: 10px 10px 10px 0; }
+#droppable { 
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; 
+    float: left; 
+    margin: 10px;
+ }
+.fields{
+    width: 800px;
+    height: 500px;
+    background-image: url(../images/field.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+/* Accordian */
+.ac_h3{
+    font-size: 20px !important;
+    color: white;
+    background-color: #2c3e50;
+}
+
+/* Resizable */
+#resizable { width: 150px; height: 150px; padding: 0.5em; }
+#resizable h3 { text-align: center; margin: 0; }
+/* Selectable */
+#feedback { font-size: 1.4em; }
+  #selectable .ui-selecting { background: #FECA40; }
+  #selectable .ui-selected { background: #F39814; color: white; }
+  #selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; }
+/* Sortable */
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; }
+  #sortable li span { position: absolute; margin-left: -1.3em; }
+
+  /* Menu */
+  .ui-menu { width: 150px; }
+  .ui-widget-header { padding: 0.2em; }
+  /* Colorpicker */
+  #red, #green, #blue {
+    float: left;
+    clear: left;
+    width: 300px;
+    margin: 15px;
+  }
+  #swatch {
+    width: 120px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: 350px;
+    background-image: none;
+  }
+  #red .ui-slider-range { background: #ef2929; }
+  #red .ui-slider-handle { border-color: #ef2929; }
+  #green .ui-slider-range { background: #8ae234; }
+  #green .ui-slider-handle { border-color: #8ae234; }
+  #blue .ui-slider-range { background: #729fcf; }
+  #blue .ui-slider-handle { border-color: #729fcf; }
+
+  /* Multi Slider */
+  #eq > span {
+    
+    height:120px; float:left; margin:15px
+  }
+  #eq{
+    display: inline-block;
+  }
+ 
+  /* Select Menu */
+  fieldset {
+    border: 0;
+  }
+  label {
+    display: block;
+    margin: 30px 0 0 0;
+  }
+  .overflow {
+    height: 200px;
+  }
+  /* Color Animate */
+  .toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }

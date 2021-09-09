@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css" class="css">
+    <link rel="stylesheet" href="css/style.css" class="css">
+    <link rel="stylesheet" href="css/media.css" class="css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Jquery</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Draggable</h1>
+    <div class="col-lg-8 my-5">
+      <div class="field">
+      <div id="draggable" class="ui-widget-content">
+        <img src="images/ball.png" alt="">
+      </div>
+    </div>
+    </div>
+    <!-- Dropable -->
+    <h1>Dropable</h1>
+    <div class="fields">
+      <div id="draggable2" class="ui-widget-content">
+        <p>Drag me to my target</p>
+      </div>
+       
+      <div id="droppable" class="ui-widget-header">
+        <p>Drop here</p>
+      </div>
+    </div>
+    <!-- Accordian -->
+    <h1>Accordian</h1>
+    <div id="accordion">
+      <h3 class="ac_h3">Argentina</h3>
+      <div class="text-center">
+        <img src="images/arg.jpg" class="img-fluid" alt="">
+      </div>
+      <h3 class="ac_h3">Brazil</h3>
+      <div class="text-center">
+        <img src="images/bra.jpg" class="img-fluid" alt="">
+      </div>
+      <h3 class="ac_h3">Germany</h3>
+      <div class="text-center">
+        <img src="images/ger.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+    <!-- Resizable -->
+     <h1>Resizable</h1>
+<div id="resizable" class="ui-widget-content mb-5" >
+  <h3 class="ui-widget-header">This is Resizable</h3>
+</div>
+  <!-- Selectable -->
+  <h1>Selectable</h1>
+  <h3>Who is your favourite player?</h3>
+  <ol id="selectable">
+    <li class="ui-widget-content">Leo Messi</li>
+    <li class="ui-widget-content">Neymar</li>
+    <li class="ui-widget-content">Kylian Mbappe</li>
+    <li class="ui-widget-content">Sergio Ramos</li>
+    <li class="ui-widget-content">Cristiano Ronaldo</li>
+    <li class="ui-widget-content">Xavi</li>
+    <li class="ui-widget-content">Diego Maradona</li>
+  </ol>
+  <!-- Sortable -->
+  <h1>Sortable</h1>
+  <h3>Sort them from highest to lowest</h3>
+  <ul id="sortable">
+    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>695</li>
+    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>1002</li>
+    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>799</li>
+    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>5788</li>
+    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>6884</li>
+    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>6874</li>
+    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>2020</li>
+  </ul>
+  <!-- Menus -->
+  <div class="row">
+    <h1>Menus</h1>
+    <!-- Menu 1 -->
+    <div class="col-lg-4">
+      <h4>Deffult Functionality</h4>
+      <ul id="menu">
+        <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+        <li><div>Books</div></li>
+        <li><div>Clothing</div></li>
+        <li><div>Electronics</div>
+          <ul>
+            <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+            <li><div>Car Hifi</div></li>
+            <li><div>Utilities</div></li>
+          </ul>
+        </li>
+        <li><div>Movies</div></li>
+        <li><div>Music</div>
+          <ul>
+            <li><div>Rock</div>
+              <ul>
+                <li><div>Alternative</div></li>
+                <li><div>Classic</div></li>
+              </ul>
+            </li>
+            <li><div>Jazz</div>
+              <ul>
+                <li><div>Freejazz</div></li>
+                <li><div>Big Band</div></li>
+                <li><div>Modern</div></li>
+              </ul>
+            </li>
+            <li><div>Pop</div></li>
+          </ul>
+        </li>
+        <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+      </ul>
+    </div>
+    <!-- Menu2 -->
+    <div class="col-lg-4">
+      <h4>Categories</h4>
+      <ul id="menu2">
+        <li class="ui-widget-header"><div>Category 1</div></li>
+        <li><div>Option 1</div></li>
+        <li><div>Option 2</div></li>
+        <li><div>Option 3</div></li>
+        <li class="ui-widget-header"><div>Category 2</div></li>
+        <li><div>Option 4</div></li>
+        <li><div>Option 5</div></li>
+        <li><div>Option 6</div></li>
+      </ul>
+    </div>
+    <!-- Menu3 -->
+    <div class="col-lg-4">
+      <h4>Icons</h4>
+      <ul id="menu3">
+        <li>
+          <div><span class="ui-icon ui-icon-disk"></span>Save</div>
+        </li>
+        <li>
+          <div><span class="ui-icon ui-icon-zoomin"></span>Zoom In</div>
+        </li>
+        <li>
+          <div><span class="ui-icon ui-icon-zoomout"></span>Zoom Out</div>
+        </li>
+        <li class="ui-state-disabled">
+          <div><span class="ui-icon ui-icon-print"></span>Print...</div>
+        </li>
+        <li>
+          <div>Playback</div>
+          <ul>
+            <li>
+              <div><span class="ui-icon ui-icon-seek-start"></span>Prev</div>
+            </li>
+            <li>
+              <div><span class="ui-icon ui-icon-stop"></span>Stop</div>
+            </li>
+            <li>
+              <div><span class="ui-icon ui-icon-play"></span>Play</div>
+            </li>
+            <li>
+              <div><span class="ui-icon ui-icon-seek-end"></span>Next</div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div>Learn more about this menu</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Progressbar -->
+  <h1>Progress Bar</h1>
+  <div id="progressbar"></div>
+  <!-- Tabs -->
+  <h1>Tabs</h1>
+  <div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">Nunc tincidunt</a></li>
+      <li><a href="#tabs-2">Proin dolor</a></li>
+      <li><a href="#tabs-3">Aenean lacinia</a></li>
+    </ul>
+    <div id="tabs-1">
+      <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+    </div>
+    <div id="tabs-2">
+      <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+    </div>
+    <div id="tabs-3">
+      <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+      <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+    </div>
+  </div>
+  <!-- Sliders -->
+  <div class="row">
+    <h1>Sliders</h1>
+    
+      <div class="ui-widget-content">
+        <p class="ui-state-default ui-corner-all ui-helper-clearfix" style="padding:4px;">
+          <span class="ui-icon ui-icon-pencil" style="float:left; margin:-2px 5px 0 0;"></span>
+          Simple Colorpicker
+        </p>
+         
+        <div id="red"></div>
+        <div id="green"></div>
+        <div id="blue"></div>
+         
+        <div id="swatch" class="ui-widget-content ui-corner-all"></div>
+      </div>
+    
+    </div>
+  
+  <!-- R%ange -->
+  <h1>Range Slider</h1>
+  <p>
+    <label for="amount">Price range:</label>
+    <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+  </p>
+  <div id="slider-range"></div>
+    
+    <!-- Multiple Slider -->
+    <h1>Multiple Slider</h1>
+    <p class="ui-state-default ui-corner-all ui-helper-clearfix" style="padding:4px;">
+      <span class="ui-icon ui-icon-volume-on" style="float:left; margin:-2px 5px 0 0;"></span>
+      Master volume
+    </p>
+     
+    <div id="master" style="width:260px; margin:15px;"></div>
+     
+    <p class="ui-state-default ui-corner-all" style="padding:4px;margin-top:4em;">
+      <span class="ui-icon ui-icon-signal" style="float:left; margin:-2px 5px 0 0;"></span>
+      Graphic EQ
+    </p>
+     
+    <div id="eq">
+      <span>88</span>
+      <span>77</span>
+      <span>55</span>
+      <span>33</span>
+      <span>40</span>
+      <span>45</span>
+      <span>70</span>
+    </div>
+    </div>
+
+<div class="container">
+  <!-- Select Menu -->
+  <h1>Select Menu</h1>
+  <div class="demo">
+ 
+    <form action="#">
+     
+      <fieldset>
+        <label for="speed">Select a speed</label>
+        <select name="speed" id="speed">
+          <option>Slower</option>
+          <option>Slow</option>
+          <option selected="selected">Medium</option>
+          <option>Fast</option>
+          <option>Faster</option>
+        </select>
+     
+        <label for="files">Select a file</label>
+        <select name="files" id="files">
+          <optgroup label="Scripts">
+            <option value="jquery">jQuery.js</option>
+            <option value="jqueryui">ui.jQuery.js</option>
+          </optgroup>
+          <optgroup label="Other files">
+            <option value="somefile">Some unknown file</option>
+            <option value="someotherfile">Some other file with a very long option text</option>
+          </optgroup>
+        </select>
+     
+        <label for="number">Select a number</label>
+        <select name="number" id="number">
+          <option>1</option>
+          <option selected="selected">2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+          <option>16</option>
+          <option>17</option>
+          <option>18</option>
+          <option>19</option>
+        </select>
+     
+        <label for="salutation">Select a title</label>
+        <select name="salutation" id="salutation">
+          <option disabled selected>Please pick one</option>
+          <option>Mr.</option>
+          <option>Mrs.</option>
+          <option>Dr.</option>
+          <option>Prof.</option>
+          <option>Other</option>
+        </select>
+      </fieldset>
+     
+    </form>
+     
+    </div>
+</div>
+
+<div class="container">
+  <h1>Color Animate</h1>
+  <div class="toggler">
+    <div id="effect" class="ui-widget-content ui-corner-all">
+      <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+      <p>
+        Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+      </p>
+    </div>
+  </div>
+   
+  <button id="button" class="ui-state-default ui-corner-all">Toggle Effect</button>
+</div>
+ 
+
+
+    <!--JS links -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
